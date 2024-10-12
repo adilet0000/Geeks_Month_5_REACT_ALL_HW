@@ -1,0 +1,45 @@
+
+
+
+.cat_fact_container {
+   max-width: 600px;
+   margin: 0 auto;
+   padding: 30px;
+   background: #f2f2f2;
+   border-radius: 15px;
+   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+   text-align: center;
+   font-family: 'Comic Sans MS';
+}
+
+.cat_fact_title {
+   color: #ff6f61;
+   font-size: 36px;
+   margin-bottom: 20px;
+   text-shadow: 2px 2px #ffd1a9;
+}
+
+.cat_fact {
+   font-size: 24px;
+   color: #333;
+   background: #fff;
+   padding: 20px;
+   border-radius: 12px;
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+   margin-bottom: 20px;
+}
+
+.new_fact_button {
+   background: #ff6f61;
+   color: white;
+   border: none;
+   border-radius: 30px;
+   padding: 12px 24px;
+   font-size: 18px;
+   cursor: pointer;
+   transition: background-color 0.3s ease;
+}
+
+.new_fact_button:hover {
+   background: #ff8a80;
+}
