@@ -6,6 +6,7 @@ import { thunk } from 'redux-thunk';
 import catReducer from './redux/reducer';
 import './index.css';
 
+
 const store = createStore(catReducer, applyMiddleware(thunk));
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
